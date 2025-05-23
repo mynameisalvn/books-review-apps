@@ -41,7 +41,7 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mynameisalpin/books-review-apps.git
+git clone https://github.com/mynameisalvn/books-review-apps.git
 cd books-review-apps
 ```
 
