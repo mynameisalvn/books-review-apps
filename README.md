@@ -87,6 +87,10 @@ php artisan migrate
 ```bash
 php artisan db:seed
 ```
+```bash
+// Optional : See the state of seeding process
+php artisan db:seed -vvv
+```
 
 > ⚠️ Seeding this amount of data may take several minutes.
 
