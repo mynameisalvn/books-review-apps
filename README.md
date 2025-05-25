@@ -75,14 +75,20 @@ DB_PASSWORD=your_password
 
 QUEUE_CONNECTION=sync
 ```
+### 4. Generate Application Key
 
-### 4. Run Migrations
+```bash
+php artisan key:generate
+```
+
+
+### 5. Run Migrations
 
 ```bash
 php artisan migrate
 ```
 
-### 5. Seed the Database
+### 6. Seed the Database
 
 ```bash
 php artisan db:seed
@@ -94,7 +100,7 @@ php artisan db:seed -vvv
 
 > ⚠️ Seeding this amount of data may take several minutes.
 
-### 6. Serve the Application
+### 7. Serve the Application
 
 ```bash
 php artisan serve
